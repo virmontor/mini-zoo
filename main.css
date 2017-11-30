@@ -1,0 +1,34 @@
+
+body {
+  font-family: verdana;
+}
+
+.galery {
+  width: 80%;
+}
+
+img {
+  display: inline-block;
+  width: 300px; height: 200px;
+  padding: 8px 8px;
+}
+
+h1 {
+  color: #218D2E;
+  font-family:fantasy;
+}
+
+.blanco-negro {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+}
+
+.invertir-colores{
+	-webkit-filter: invert(.8);
+	filter: invert(.8);
+}
+
+.sepia {
+	-webkit-filter: sepia(1);
+	filter: sepia(1);
+}
